@@ -1,0 +1,144 @@
+
+/* Global*/
+
+hmtl, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+#header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    background: black;
+}
+
+header img {
+    padding: 0;
+    margin-left: 10px;
+    height: 50px;
+}
+
+/* Nav */
+
+header nav ul li {
+    display: inline-flex;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+    position: relative;
+    color: white;
+}
+
+header nav ul {
+    margin-right: 10px;
+}
+
+
+/* Center Header */
+
+.center {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background: url("../img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.center-text {
+    width: 100%;
+    background: black;
+    align-items: center;
+
+}
+
+
+/* Tea Pictures */
+
+.tea-month {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.products {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+
+/* Information and locations */
+
+.information {
+    min-height: 500px;
+    opacity: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background: url("../img/img-locations-background.jpg") no-repeat center;
+}
+
+.locations {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    padding: 10px;
+    background: black;
+    opacity: 1;
+    color: white;
+    flex-basis: 300px;
+    margin: 0 20px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    position: relative;
+    opacity: 1;
+    background: black;
+    bottom: 0;
+    text-align: left;
+}
